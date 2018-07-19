@@ -112,6 +112,8 @@ import org.springframework.lang.Nullable;
  * @see org.springframework.beans.factory.config.BeanPostProcessor#postProcessAfterInitialization
  * @see DisposableBean#destroy
  * @see org.springframework.beans.factory.support.RootBeanDefinition#getDestroyMethodName
+ *
+ * BeanFactory提供的是最基本的IOC容器的功能，它定义了IOC容器的最基本的形式。
  */
 public interface BeanFactory {
 
